@@ -1,7 +1,7 @@
-var app = angular.module("myApp", ["ngRoute"]);
+var app = angular.module("myApp", ["ngRoute", ,"ngAnimate", "ngMaterial"]);
 app.config(function($routeProvider) {
     $routeProvider
-    .when("/home", {
+    .when("/", {
         templateUrl : "pages/home.html",
         controller: "homeController"
     });
