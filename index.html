@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
 <head>
-
+	<!-- Angular related core libs --> 
 	<script src="node_modules/angular/angular.js"></script>
 	<script src="node_modules/angular-route/angular-route.js"></script>
 	<script src="node_modules/angular-animate/angular-animate.js"></script>
@@ -19,17 +19,18 @@
 	<!-- Customize CSS -->
 	<link rel="stylesheet" href="content/style.css">
 </head>
+
 <body>
-	<div ng-controller="baseController">
-		<md-content>
-			<md-nav-bar nav-bar-aria-label="navigation links">
-				<md-nav-item>
+	<!-- nav section -->
+	<div ng-controller="baseController" ng-cloak>
+		<md-content class="md-padding">
+			<md-nav-bar md-selected-nav-item="currentNavItem" nav-bar-aria-label="navigation links">
+				<md-nav-item md-nav-href="#/" name="index">
 					Index
 				</md-nav-item>
 			</md-nav-bar>
 		</md-content>
 	</div>
-	<md-button class="md-raised md-primary">P</md-button>
 	<h1>Index</h1>
 	<div ng-view></div>
 </body>
