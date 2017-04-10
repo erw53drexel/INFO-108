@@ -1,0 +1,12 @@
+{
+	"name": "INFO108",
+	"description": "Drexel 201718 Spring INFO 108A Group 4",
+	"version": "0.0.1",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:ShuffleDATMT/INFO108.git"
+	},
+	"dependencies": {
+	}
+} 
