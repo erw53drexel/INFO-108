@@ -4,6 +4,46 @@ body
 	margin-right: 5%;
 }
 
+button 
+{
+	height: 50px;
+	background-color: grey;
+	color: white;
+	text-alignalign: center;
+	display: inline-block;
+	border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+button:hover 
+{
+    background-color: black; /* Blue */
+}
+
+input[type=text], input[type=Email], select, textarea
+{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    height: 30px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
 /* jumbotron section */
 .jumbotron
 {
@@ -28,22 +68,16 @@ body
 	background-color: #111;
 }
 
-button {
-	height: 50px;
-	background-color: grey;
-	color: white;
-	text-align: center;
-	display: inline-block;
-	border: none;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    border-radius: 10px;
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: #efefef;
+  text-align: center;
 }
-
-button:hover {
-    background-color: black; /* Blue */
-}
-
 
 #pageTitle
 {
