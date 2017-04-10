@@ -28,6 +28,23 @@ body
 	background-color: #111;
 }
 
+button {
+	height: 50px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: black; /* Blue */
+}
+
+
 #pageTitle
 {
 	text-align: center;
